@@ -1,9 +1,9 @@
 public class HailstoneProblem {
 	public static void main(String[] args) {
-		
+		hailstone (12);
 	}
 
-	public static int Hailstone(int number) {
+	public static int hailstone(int number) {
 		while (number>0 && number!=1) {
  			while (number % 2 == 0 && number != 1) {
         		number = number / 2;
